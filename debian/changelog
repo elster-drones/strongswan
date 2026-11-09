@@ -1,3 +1,9 @@
+strongswan (6.0.1-6+deb13u7+elster2) trixie; urgency=medium
+
+  * Declare native Python and systemd build tools for cross compilation.
+
+ -- Erik Ziegenbalg <erikziege@gmail.com>  Mon, 09 Nov 2026 09:00:00 +0000
+
 strongswan (6.0.1-6+deb13u7+elster1) trixie; urgency=medium
 
   * Elster OS: rebase on Debian 6.0.1-6+deb13u7 (trixie security, CVE fixes

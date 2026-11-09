@@ -31,8 +31,8 @@ Build-Depends: bison,
                libxml2-dev,
                pkgconf,
                po-debconf,
-               python3,
-               systemd [linux-any],
+               python3:native,
+               systemd:native [linux-any],
                tzdata
 Homepage: http://www.strongswan.org
 
