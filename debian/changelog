@@ -1,3 +1,10 @@
+strongswan (6.0.1-6+deb13u7+elster4) unstable; urgency=medium
+
+  * Depend on systemd development metadata instead of the init daemon for
+    systemd.pc. Unit installation and the target libsystemd API are unchanged.
+
+ -- Erik Ziegenbalg <erikziege@gmail.com>  Mon, 09 Nov 2026 10:26:24 +0000
+
 strongswan (6.0.1-6+deb13u7+elster3) unstable; urgency=medium
 
   * Keep Multi-Arch: foreign build tools unqualified so dpkg accepts them

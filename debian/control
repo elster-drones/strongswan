@@ -32,7 +32,7 @@ Build-Depends: bison,
                pkgconf,
                po-debconf,
                python3:native,
-               systemd [linux-any],
+               systemd-dev [linux-any],
                tzdata
 Homepage: http://www.strongswan.org
 
