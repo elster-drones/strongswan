@@ -1,3 +1,10 @@
+strongswan (6.0.1-6+deb13u7+elster3) unstable; urgency=medium
+
+  * Keep Multi-Arch: foreign build tools unqualified so dpkg accepts them
+    during cross compilation. The build service selects their native tools.
+
+ -- Erik Ziegenbalg <erikziege@gmail.com>  Mon, 09 Nov 2026 09:44:03 +0000
+
 strongswan (6.0.1-6+deb13u7+elster2) trixie; urgency=medium
 
   * Declare native Python and systemd build tools for cross compilation.
